@@ -3,3 +3,4 @@ sudo modprobe rtl8723be ant_sel=2
 sudo ip link set wlo1 up #here enter your wl no. by iwconfig
 sudo iw dev wlo1 scan
 echo "options rtl8723be ant_sel=2" | sudo tee /etc/modprobe.d/rtl8723-ant-sel.confecho 
+ 
